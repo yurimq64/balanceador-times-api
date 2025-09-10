@@ -31,7 +31,7 @@ public class JogadorService {
                 .map(jogador -> {
                     jogador.setNome(updatedJogador.getNome());
                     jogador.setNota(updatedJogador.getNota());
-                    return jogador;
+                    return jogadorRepository.save(jogador);
                 })
                 .orElseThrow(() -> new RuntimeException("Não existe um jogador com esse ID"));
     }
