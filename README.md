@@ -42,7 +42,7 @@ Foi criado como um projeto de portfólio para demonstrar habilidades em desenvol
 **Exemplo de corpo da requisição (POST/PUT) para `/jogadores`:**
 ```json
 {
-    "nome": "Zico",
+    "nome": "James",
     "nota": 5
 }
 ```
@@ -62,14 +62,14 @@ Foi criado como um projeto de portfólio para demonstrar habilidades em desenvol
 ```json
 {
     "timeA": [
-        { "id": 1, "nome": "Zico", "nota": 5 },
-        { "id": 4, "nome": "Bebeto", "nota": 4 },
-        { "id": 6, "nome": "Júnior", "nota": 3 }
+        { "id": 1, "nome": "James", "nota": 5 },
+        { "id": 4, "nome": "Curry", "nota": 4 },
+        { "id": 6, "nome": "Barnes", "nota": 3 }
     ],
     "timeB": [
-        { "id": 2, "nome": "Romário", "nota": 5 },
-        { "id": 3, "nome": "Ronaldo", "nota": 5 },
-        { "id": 5, "nome": "Adílio", "nota": 2 }
+        { "id": 2, "nome": "Schmidt", "nota": 5 },
+        { "id": 3, "nome": "Jordan", "nota": 5 },
+        { "id": 5, "nome": "Santos", "nota": 2 }
     ]
 }
 ```
